@@ -1,0 +1,24 @@
+# -*- coding:utf-8 -*-
+
+DISABLED = 0  # 禁用
+ENABLED = 1  # 启用
+
+# 资源类型
+RESOURCE_CLASSROOM = 10000  # 教室
+RESOURCE_TEACHER = 10001  # 教师
+
+# 预约单状态
+ORDER_STANDBY = 20000  # 待使用
+ORDER_CANCELED = 20001  # 取消
+ORDER_NO_SHOW = 20002  # 爽约
+ORDER_COMPLETE = 20003  # 已完成
+
+# 预约单类型
+ORDER_TYPE_CLASS = 20100  # 上课
+ORDER_TYPE_PRACTICE = 20101  # 练习
+
+ORDER_CANCEL_SYSTEM = 20200  # 系统取消
+ORDER_CANCEL_USER = 20201  # 用户取消
+
+# 预约时间段 09:00 ~ 09:30 - 10:00 ~ 10:30
+TIME_QUANTUM = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
