@@ -1,7 +1,7 @@
 # cherrypie
-A RESTful style web framework base on falcon
+A RESTful style Web framework base on Falcon
 
-基于 falcon 的 RESTful web 框架 model层仿mongokit
+基于[Falcon](http://falconframework.org/#sectionDesign) 的 RESTful Web 框架 Model层仿[MongoKit](https://github.com/namlook/mongokit)
 
 # Installing
 Install and update using pip:
